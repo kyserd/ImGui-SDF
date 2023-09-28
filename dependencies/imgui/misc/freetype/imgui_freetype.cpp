@@ -189,7 +189,7 @@ namespace
 
         if (UserFlags & ImGuiFreeTypeBuilderFlags_Monochrome)
             RenderMode = FT_RENDER_MODE_MONO;
-        //  HACK START
+        // HACK START
         else if (UserFlags & ImGuiFreeTypeBuilderFlags_DistanceField)
             RenderMode = FT_RENDER_MODE_SDF;
         // HACK END
